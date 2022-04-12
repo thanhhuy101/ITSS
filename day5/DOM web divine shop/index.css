@@ -1,0 +1,100 @@
+.img {
+  width: 250px;
+  height: auto;
+
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.items {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 60px;
+}
+
+.theme {
+  width: 100px;
+}
+
+.h4 {
+  color: white;
+  margin-top: 50px;
+}
+
+/* h3{
+  box-shadow: 10px 10px 5px #aaaaaa;
+} */
+
+h4 {
+  font-size: 20px;
+  color: black;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  /* box-shadow: 10px 10px 5px #aaaaaa; */
+}
+
+.banner {
+  background-color: blue;
+  height: 200px;
+}
+
+.mid {
+  display: flex;
+}
+
+.header {
+  margin-left: 900px;
+}
+
+.hehe {
+  margin-left: 200px;
+}
+
+.item {
+  margin-left: 50px;
+}
+
+.body {
+  margin-top: 20px;
+}
+
+#nav li {
+  display: inline-block;
+  position: relative;
+}
+
+#nav li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav li:hover a {
+  text-decoration: underline;
+}
+
+#nav .sub-nav {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+#nav .sub-nav a {
+  color: black;
+  line-height: 28px;
+}
+
+#nav li:hover .sub-nav {
+  display: block;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.login {
+  display: flex;
+  margin-left: 50px;
+}
+
+.bot {
+  margin-top: 20px;
+}

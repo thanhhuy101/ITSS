@@ -1,0 +1,72 @@
+.container {
+  height: 100vh;
+  display: flex;
+}
+.left {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-image: linear-gradient(0, rgba(255, 255, 0, 0.5), rgba(0,0,255,0.5));
+}
+.mid {
+  float: mid;
+  width: 40%;
+  height: 100%;
+  background-image: linear-gradient(180deg, rgba(255, 255, 0, 0.5), rgba(0,0,255,0.5));
+}
+.right {
+  float: right;
+  width: 30%;
+  height: 100%;
+  background-image: linear-gradient(0, rgba(255, 255, 0, 0.5), rgba(0,0,255,0.5));
+}
+h1 {
+  text-align: center;
+  color: violet;
+  background-image: linear-gradient(180deg, #333, #ccc);
+}
+.img {
+  width: 10%;
+  height: 10%;
+  display: block;
+  /* margin: 20px auto; */
+  border: 2px solid #3b38ff;
+  border-radius: 50%;
+  margin-top: 13rem;
+  animation: mymove1 4s;
+  animation-iteration-count: infinite;
+  position: relative; 
+  animation-direction: alternate;
+ 
+}
+.img1 {
+  width: 90%;
+  height: 350px;
+  margin-top: 13rem;
+  border: 2px solid;
+  border-radius: 20px 0 20px 0;
+  animation: mymove 10s linear infinite;
+  
+}
+h2 {
+  text-align: center;
+  color: violet;
+}
+
+@keyframes mymove { 
+  100% {transform: rotate(360deg) ;}
+}
+
+@keyframes mymove1 { 
+  0% {left:0px; top:0px;}
+  10% {left: 400px; top: 0px;}
+  20% {left: 400px; top: 400px;}
+  30% {left: 100px; top: 400px;}
+  40% {left: 100px; top: 100px;}
+  50% {left: 300px; top: 100px;} 
+  60% {left: 300px; top: 300px;} 
+  70% {left: 200px; top: 300px;} 
+  80% {left: 200px; top: 200px;} 
+  90% {left: 250px; top: 200px;} 
+  100% {left: 250px; top: 250px;} 
+}
